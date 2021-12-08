@@ -1,0 +1,22 @@
+﻿body {
+    background-color: lightblue;
+}
+
+.myButton {
+    background-color: ButtonFace;
+    border: 2px solid black;
+    font: bold medium;
+    border-radius: 10px;
+}
+
+    .myButton:hover {
+        background-color: lime;
+        color: black;
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.5), 0 17px 50px 0 rgba(0,0,0,0.5);
+        border: 2px solid blue;
+    }
+
+.myLabel {
+    color: blue;
+    font: bold;
+}

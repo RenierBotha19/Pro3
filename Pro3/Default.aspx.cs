@@ -13,5 +13,10 @@ namespace Pro3
         {
 
         }
+
+        protected void btnStart_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Start.aspx");
+        }
     }
 }

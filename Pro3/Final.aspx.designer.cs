@@ -11,7 +11,7 @@ namespace Pro3
 {
 
 
-    public partial class Default
+    public partial class Final
     {
 
         /// <summary>
@@ -33,12 +33,21 @@ namespace Pro3
         protected global::System.Web.UI.WebControls.Label lblHeading;
 
         /// <summary>
-        /// btnStart control.
+        /// lbxDisplay control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnStart;
+        protected global::System.Web.UI.WebControls.ListBox lbxDisplay;
+
+        /// <summary>
+        /// btnDisplay control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnDisplay;
     }
 }
